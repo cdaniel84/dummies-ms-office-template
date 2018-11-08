@@ -1,0 +1,1138 @@
+<!doctype html>
+<html lang="en">
+<head>
+<meta charset="utf-8">
+<meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no">    
+<link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.1.3/css/bootstrap.min.css" integrity="sha384-MCw98/SFnGE8fJT3GXwEOngsV7Zt27NXFoaoApmYm81iuXoPkFOJwJ8ERdknLPMO" crossorigin="anonymous">
+<script src="https://code.jquery.com/jquery-3.3.1.slim.min.js" integrity="sha384-q8i/X+965DzO0rT7abK41JStQIAqVgRVzpbzo5smXKp4YfRvH+8abtTE1Pi6jizo" crossorigin="anonymous"></script>
+<script src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.14.3/umd/popper.min.js" integrity="sha384-ZMP7rVo3mIykV+2+9J3UJ46jBk0WLaUAdn689aCwoqbBJiSnjAK/l8WvCWPIPm49" crossorigin="anonymous"></script>
+<script src="https://stackpath.bootstrapcdn.com/bootstrap/4.1.3/js/bootstrap.min.js" integrity="sha384-ChfqqxuZUCnJSK3+MXmPNIyE6ZbWh2IMqE241rYiqJxyMiZ6OW/JmZQ5stwEULTy" crossorigin="anonymous"></script>     
+<script src="https://cdnjs.cloudflare.com/ajax/libs/bxslider/4.2.15/jquery.bxslider.min.js"></script>
+<link href="https://cdnjs.cloudflare.com/ajax/libs/bxslider/4.2.15/jquery.bxslider.min.css" rel="stylesheet" />    
+</head>
+<body>
+<script>
+$(document).ready(function(){
+  $('.bxslider').bxSlider();
+});
+</script>    
+<style>
+    @media only screen and (max-width: 812px) {    
+/*for Mobile*/    
+    body {
+        width:100%;
+        box-sizing: border-box;
+    }
+        
+    .wrapper {
+        float:left;
+    }    
+    
+    .container {
+        padding:0;
+    }
+    
+    .ms-background {
+        float:left;
+        width:100%;
+        position:relative;
+        background-image: linear-gradient(rgba(0, 0, 0, 0.5), rgba(0, 0, 0, 0.5)), url('https://www.qa.dummies.com/wp-content/uploads/highlighting-background.jpg');
+        background-size:cover;
+        background-repeat: no-repeat;
+    }
+    
+     .bx-wrapper {
+        background:none;
+        border:none;
+        box-shadow:none;
+    }
+    
+    .bx-wrapper img {
+        max-width:400px;
+    }
+        
+     .dummies-logo {
+        float:left !important;
+        width:59px;
+    }    
+    
+        .products {
+            display:none;
+        }    
+    .product-title p {
+        font-size:18px;
+        color:#a2a2a2;
+        font-weight:normal;
+        font-family: 'Assistant', sans-serif;
+        width:622px;
+        float:left;
+    }
+    
+    .product-title h3 {
+        font-weight:bold;
+        font-size:50px;
+        float:left;
+        width:100%;
+    }
+    
+    #slider-author {
+        font-size:16px;
+        color:#a2a2a2;
+        font-family:'Open Sans Semibold', sans-serif;
+        float:left;
+        width:100%;
+        margin-bottom:24px;
+    }
+    
+     #slider-discount-text {
+         color:#FFF;
+         position:absolute;
+         right:205px;
+         top:75px;
+         font-size:20px;
+     } 
+     
+     #slider-discount-text span {
+        width: 100%;
+        float: left;
+        font-size: 10px;
+        font-style: italic;
+        margin-top: -10%;
+        color: #FFF;
+     }    
+        
+    .col {
+        width:100% !important;
+        float:left;
+        margin-top:15px;
+        display:block;
+        margin-left:15px;
+        margin-right:15px;
+    }
+    
+    .col img {
+        max-width:300px;
+        display:block;
+        margin-left:auto;
+        margin-right:auto;
+    }
+    
+     .featured {
+        float:left;
+        position:relative;
+        width:100%;
+        margin:auto;
+    }
+    
+    .featured h3 {
+        text-align: center;
+        }   
+        
+        
+    .mobile-feature-img{
+        width:90px;
+        height:113px;
+        margin-top:30px;
+    }    
+        
+    .left-side {
+        float: right;
+        width: 200px;
+        position: relative;
+        color:#FFF;
+        margin-top:30px;
+    }
+    
+    #featured-article {
+        border-top:1px solid #707070;
+        margin-top:18px;
+        }
+    
+    #featured-article img {
+        position:relative;
+        float:left;
+        left:0px;
+        margin-right:5px;
+        margin-top:5px;
+        }    
+        
+    .right-side {
+        float:left;
+        width:100px;
+        position:relative;
+        margin-left:15px;
+    }
+        
+    .popular {
+        float:left;
+        position:relative;
+        width:100%;
+        margin:auto;
+    }
+    
+    .popular h3 {
+        text-align: center;
+    }
+    
+    #office-2019-feature {
+        width:345px;
+        height:290px;
+        float:left;
+        position:relative;
+        background-image: linear-gradient(rgba(0, 0, 0, 0.5), rgba(0, 0, 0, 0.5)), url('https://www.qa.dummies.com/wp-content/uploads/ash-edmonds-636860-unsplash.jpg');
+        background-size: cover;
+        background-repeat: no-repeat;
+        border-radius:3px;
+    }
+        
+      #office-2019-all-one-feature {
+        width:345px;
+        height:290px;
+        float:left;
+        position:relative;
+        background: linear-gradient(rgba(0, 0, 0, 0.5), rgba(0, 0, 0, 0.5)), url('https://www.qa.dummies.com/wp-content/uploads/septumia-jacobson-717751-unsplash-Copy.jpg');
+        background-size: cover;
+        border-radius:3px;
+    }
+    
+    #office-365-feature {
+        width:345px;
+        height:290px;
+        float:left;
+        position:relative;
+        background: linear-gradient(rgba(0, 0, 0, 0.5), rgba(0, 0, 0, 0.5)), url('https://www.qa.dummies.com/wp-content/uploads/thomas-peham-435981-unsplash.jpg');
+        background-size: cover;
+        border-radius:3px;
+    }
+    
+    #office-seniors-feature {
+        width:345px;
+        height:290px;
+        float:left;
+        position:relative;
+        background: linear-gradient(rgba(0, 0, 0, 0.5), rgba(0, 0, 0, 0.5)), url('https://www.qa.dummies.com/wp-content/uploads/juniperphoton-776419-unsplash.jpg');
+        background-size: cover;
+        border-radius:3px;
+    }    
+    
+    #discount-row {
+        float:left;
+        position: absolute;
+        bottom:80px;
+        margin-left:15px;
+    }   
+    
+    #discount-text {
+        color: #FFF;
+        font-family:'Open Sans', sans-serif;
+        position:absolute;
+        text-align: left;
+        font-size:20px;
+        top:0px;
+        left:30px;
+    }
+    
+    #discount-text span {
+        width: 100%;
+        float: left;
+        font-size: 10px;
+        font-style: italic;
+        margin-top:-10%;
+        color:#FFF;
+    }
+    
+    .special-offer {
+        background-image: url('https://www.qa.dummies.com/wp-content/uploads/Special-offer_Background@2x.png');
+        background-size: cover;
+        background-repeat:no-repeat;
+        float:left;
+    }
+    
+    .newsletter {
+        float:left;
+        position:relative;
+        width:100%;
+        background:#FFEB00;
+    }
+    
+    .newsletter img {
+        display: block;
+        margin-left: auto;
+        margin-right: auto;
+        width: 200px;
+        margin-top: 25px;
+    }
+    
+    .sign-up-email {
+        text-align: -webkit-center;
+        width: 100%;
+        float: left;
+    }
+    
+       button {
+        background: #FFEB00;
+        color: #000;
+        font-weight:bold;
+        border:none;
+        width:311px;
+        height:40px;
+        display:block;
+        margin-left:auto;
+        margin-right:auto;
+        position:absolute;
+        top:230px;
+        left:0px;
+    }
+            
+}    
+ @media only screen and (min-width: 850px) {   
+    body {
+        overflow-x: hidden;
+    }
+     
+     .container {
+         padding:0;
+     }
+     
+    .ms-background {
+        float:left;
+        width:100%;
+        position:relative;
+        background-image: linear-gradient(rgba(0, 0, 0, 0.5), rgba(0, 0, 0, 0.5)), url('https://www.qa.dummies.com/wp-content/uploads/highlighting-background.jpg');
+        background-size:cover;
+        background-repeat: no-repeat;
+        height:700px;
+        align-content: center;
+    }
+    
+    .bx-wrapper {
+        background:none;
+        border:none;
+        box-shadow:none;
+    }
+    
+    .bx-pager {
+        bottom:0px !important;
+    }
+    
+    .bx-prev {
+        background: url('https://www.qa.dummies.com/wp-content/uploads/Carousel_Arrow1.png') no-repeat !important;
+     } 
+     
+     .bx-next {
+         background: url('https://www.qa.dummies.com/wp-content/uploads/Carousel_Arrow2.png') no-repeat !important;
+     }
+     
+    .dummies-logo {
+        float:left !important;
+        width:59px;
+    }
+    
+
+    .product-title {
+        color: #FFF;
+        width: 1140px;
+        float:left;
+        font-family: Open Sans, sans-serif;
+        margin-left:15%;
+        margin-top:10%;
+}
+    .product-title p {
+        font-size:18px;
+        color:#a2a2a2;
+        font-weight:normal;
+        font-family: 'Assistant', sans-serif;
+        width:622px;
+        float:left;
+    }
+    
+    .product-title h3 {
+        font-weight:bold;
+        font-size:50px;
+        float:left;
+        width:100%;
+    }
+    
+    #slider-author {
+        font-size:16px;
+        color:#a2a2a2;
+        font-family:'Open Sans Semibold', sans-serif;
+        float:left;
+        width:100%;
+        margin-bottom:24px;
+    }
+    
+     #slider-discount-text {
+         color:#FFF;
+         position:absolute;
+         right:205px;
+         top:75px;
+         font-size:20px;
+     } 
+     
+     #slider-discount-text span {
+        width: 100%;
+        float: left;
+        font-size: 10px;
+        font-style: italic;
+        margin-top: -10%;
+        color: #FFF;
+     }
+     
+    .related-articles {
+        float:left;
+        position:relative;
+        width:100%;
+        display:block;
+        color:#A2A2A2;
+        font-family:'Open Sans', sans-serif;
+        text-transform: uppercase;
+        font-weight:bold;
+    }
+    
+    .related-articles img {
+        float:left;
+        display:inline-block;
+    }
+    
+    .related-articles p {
+        float:left;
+        text-indent:1%;
+        width:85%;
+    }
+    
+    #related-blurb {
+        color:#FFF;
+        font-weight:bold;
+        font-size:14px;
+    }
+    
+    .products {
+        font-family: 'Open-Sans', sans-serif;
+        margin-top:5%;
+        float:left;
+        position:relative;
+        width:100%;
+    }
+    
+    .products h3 {
+        text-align:center;
+        font-weight: bold;
+        margin-bottom:10%;
+    }
+    
+    #title-info {
+        float:left;
+        position:relative;
+        width:50%;
+    }
+    
+    #author {
+        font-size: 12px;
+        float:left;
+        position:relative;
+        width:100%;
+        text-align:center;
+        color:gray;
+    }
+    
+    #book-title {
+        text-align: center;
+        font-weight: bold;
+        font-size:20px;
+    }
+    
+    #isbn {
+        text-align:center;
+        font-size:12px;
+    }
+    
+    .col-sm- {
+        margin-left:.25%;
+        margin-right:.25%;
+    }
+    
+    .col-sm- img {
+        display:block;
+        box-shadow: 0px 8px 15px #E6E6E6;
+        width:120px;
+        height:150px;
+        margin-left:auto;
+        margin-right:auto;
+        float:none;
+        position:relative;
+        top:-75px
+    }
+    
+    #commerce {
+        float:left;
+        width:100%;
+        position:relative;
+        width:220px !important;
+        box-shadow: 0px 8px 15px #E6E6E6;
+        height:678px;
+        border:1px solid lightgray;
+    }
+    
+    #bullet-points {
+        float:left;
+        position:absolute;
+        border-top:1px solid #E6E6E6;
+        top:350px;
+    }
+    
+    #bullet-points ul {
+        float:left;
+        font-size:14px;
+        margin-top:15%;
+        margin-bottom:auto;
+        display:block;
+        width:95%;
+    }
+    
+    #bullet-points ul li {
+        margin-bottom:5%;
+    }
+    
+    .container {
+        margin-top:0%;
+    }
+    
+    .container span {
+        color:#666666;
+        font-size:18px;
+        font-family:'Assistant', sans-serif;
+    }
+    
+    #price {
+        float:left;
+        position:absolute;
+        bottom:0;
+        width:100%;
+        text-align: center;
+        border-top:1px solid #E6E6E6;
+        margin-bottom:inherit;
+        font-size:20px;
+        padding-top:5%;
+        padding-bottom:5%;
+    }
+    
+    .featured {
+        float:left;
+        position:relative;
+        width:100%;
+        margin-top:5%;
+        font-family:'Open Sans', sans-serif;
+    }
+    
+    .featured h3 {
+        font-weight:bold;
+    }
+    
+    #office-2019-feature {
+        width:550px;
+        height:320px;
+        float:left;
+        position:relative;
+        background-image: linear-gradient(rgba(0, 0, 0, 0.5), rgba(0, 0, 0, 0.5)), url('https://www.qa.dummies.com/wp-content/uploads/ash-edmonds-636860-unsplash.jpg');
+        background-size: cover;
+        background-repeat: no-repeat;
+        border-radius:3px;
+    }
+    
+    #discount-row {
+        float:left;
+        position: relative;
+        width:100%;
+        margin-top:5%;
+        margin-bottom:5%;
+        margin-left:5%;
+    }
+    
+    #discount-text {
+        color: #FFF;
+        font-family:'Open Sans', sans-serif;
+        position:absolute;
+        text-align: left;
+        top:0px;
+        left:30px;
+        font-size:20px;
+    }
+    
+    #discount-text span {
+        width: 100%;
+        float: left;
+        font-size: 10px;
+        font-style: italic;
+        margin-top:-10%;
+        color:#FFF;
+    }
+    
+    #office-2019-all-one-feature {
+        width:550px;
+        height:320px;
+        float:left;
+        position:relative;
+        background: linear-gradient(rgba(0, 0, 0, 0.5), rgba(0, 0, 0, 0.5)), url('https://www.qa.dummies.com/wp-content/uploads/septumia-jacobson-717751-unsplash-Copy.jpg');
+        background-size: cover;
+        border-radius:3px;
+    }
+    
+    #office-365-feature {
+        width:550px;
+        height:320px;
+        float:left;
+        position:relative;
+        background: linear-gradient(rgba(0, 0, 0, 0.5), rgba(0, 0, 0, 0.5)), url('https://www.qa.dummies.com/wp-content/uploads/thomas-peham-435981-unsplash.jpg');
+        background-size: cover;
+        border-radius:3px;
+    }
+    
+    #office-seniors-feature {
+        width:550px;
+        height:320px;
+        float:left;
+        position:relative;
+        background: linear-gradient(rgba(0, 0, 0, 0.5), rgba(0, 0, 0, 0.5)), url('https://www.qa.dummies.com/wp-content/uploads/juniperphoton-776419-unsplash.jpg');
+        background-size: cover;
+        border-radius:3px;
+    }
+    
+    #feature-author {
+        color:#FFF;
+        font-size:14px;
+        margin-left:5%;
+    }
+    
+    .col h4 {
+        color:#FFF;
+        font-weight:bold;
+        font-family:'Open Sans', sans-serif;
+        line-height:35px;
+        margin-left:5%;
+    }
+    
+    .col-md- img {
+        float:right;
+        width:150px;
+    }
+    
+    button {
+        background: #FFEB00;
+        color: #000;
+        font-weight:bold;
+        border:none;
+        width:135px;
+        height:35px;
+        margin-top:5%;
+    }
+    
+    #featured-article {
+        float:left;
+        position:absolute;
+        top:95px;
+        width:100%;
+        border-top:1px solid #707070;
+        margin-top:15%;
+        margin-left:5%;
+        color:#A2A2A2;
+    }
+    
+    #featured-article span {
+        font-size:12pt;
+        font-weight:bold;
+        line-height:35px;
+        margin-left:1%
+    }
+    
+    #featured-article p {
+        color:#FFF;
+        font-weight:bold;
+        font-size:12px
+    }
+    
+    .left-side {
+        float:left;
+        width:355px;
+        position:relative;
+    }
+    
+    .right-side {
+        float:right;
+        width:168px;
+        position:relative;
+    }
+    
+    .row {
+        margin-top:3%;
+    }
+    
+    .popular {
+        font-family: 'Open-Sans', sans-serif;
+        margin-top:5%;
+        float:left;
+        position:relative;
+        width:100%;
+    }
+    
+    .popular h3 {
+        font-weight:bold;
+        text-align: center;
+    }
+    
+    .popular img {
+        width:180px;
+        height:226px;
+        display:block;
+        margin-left:auto;
+        margin-right:auto;
+    }
+    
+    #popular-details {
+        float:none;
+        position:relative;
+        display:block;
+        margin-left:auto;
+        margin-right:auto;
+        width:75%;
+        align-content: center;
+        margin-top:25px;
+    }
+    
+    #popular-details span {
+        color:#000;
+        font-weight:bold;
+        font-family:'Open Sans', sans-serif;
+        font-size:18px;
+    }
+     
+    #popular-details p {
+        color:#A2A2A2;
+        font-family:'Open Sans Semibold', sans-serif;
+        font-size:14px;
+     } 
+    
+    .special-offer {
+        background-image: url('https://www.qa.dummies.com/wp-content/uploads/Special-offer_Background@2x.png');
+        background-size: cover;
+        background-repeat:no-repeat;
+        height:450px;
+        float:left;
+        position:relative;
+        width:100%;
+        padding:20px;
+        margin-bottom:auto;
+        margin-top:3%;
+    }
+    
+    .special offer h2 {
+        font-weight:bold;
+    }
+    
+    #special-offer-text {
+        float:left;
+        position:relative;
+        margin-left:15%;
+        margin-top:5%;
+        width:1140px;
+        text-transform: uppercase
+    }
+    
+    .special-offer p {
+        font-size:14px;
+        width: 455px;
+    }
+    
+    .special-offer img {
+        position:absolute;
+    }
+    
+    .special-offer button {
+        margin-top:0;
+    }
+    
+     #special-offer-discount-text {
+        color: #FFF;
+        position: absolute;
+        right: 200px;
+        top: 140px;
+        font-size:40px;
+     } 
+     
+     #special-offer-discount-text span {
+         width:100%;
+         float:left;
+         font-style: italic;
+         font-size:14px;
+     }
+     
+    .newsletter {
+        float:left;
+        position:relative;
+        width:100%;
+        background:#FFEB00;
+        height:380px;
+    }
+    
+    .newsletter img {
+        float:left;
+        position:absolute;
+        left:15px;
+        width:auto;
+    }
+    
+    .sign-up {
+        float:left;
+        position:relative;
+        width:1140px;
+        display:block;
+        margin-left:5%;
+        margin-right:auto;
+        margin-top:5%;
+    }
+    
+    .sign-up-email {
+        float:right;
+        margin-right:2%;
+        width:690px;
+    }
+    
+    .sign-up-email h2 {
+        font-size:36pt;
+        font-weight:bold;
+    }
+    
+    .sign-up-email p {
+        font-size:36pt;
+    }
+    
+    #email-field {
+        width:650px;
+        height:50px;
+        border-radius:3px;
+        background:#FFF;
+        margin-top:33px;
+        border:none;
+        border-radius:3px;
+    }
+    
+    #email-field input {
+        width:500px;
+        float:left;
+        position:relative;
+        height:100%;
+        border:none;
+        text-indent:5%;
+    }
+    
+    .sign-up-email button {
+        float:right;
+        position:relative;
+        width:125px;
+        margin-top:5px;
+        margin-right:5px;
+    }
+}
+</style>
+<div class="wrapper">   
+<div class="ms-background">  
+<ul class="bxslider">
+<li>
+<div class="product-title">
+<div class="row">    
+<div class="col"><img src="https://www.qa.dummies.com/wp-content/uploads/Dummies-logo2.png" class="dummies-logo"/><h3>Excel for Dummies</h3>
+<span id="slider-author">Greg Harvey, PhD</span>
+<p>Updated to reflect the latest changes ot the Microsoft Office suite, this new edition of Excel for Dummies quickly and painlessly gets up to speed on...</p>
+<div class="related-articles">    
+<img src="https://www.qa.dummies.com/wp-content/uploads/Excel.png" style="margin-right:5%;" /><p><img src="https://www.qa.dummies.com/wp-content/uploads/Related-articles_G@2x.png" style="margin-right:1%;" /> Related Articles</p><p id="related-blurb">Using worksheet functions statistical analysis Excel 2019</p>
+</div>    
+</div>     
+<div class="col"><img src="https://www.qa.dummies.com/wp-content/uploads/excel-highlighted-section.png" style="float:right; width:800px;" /><img src="https://www.qa.dummies.com/wp-content/uploads/Discount1_Small.png" style="position: absolute;
+    right: 225px;
+    top: 75px;"/><div id="slider-discount-text"><strong>25%</strong> <span>Discount</span></div></div>  
+</div>
+</div>    
+</li>
+  <li>
+<div class="product-title">
+<div class="row">    
+<div class="col"><img src="https://www.qa.dummies.com/wp-content/uploads/Dummies-logo2.png" class="dummies-logo"/><h3>Office 2019 for Dummies</h3>
+<span id="slider-author">Wallace Wang</span>
+<p>Updated to reflect the latest changes ot the Microsoft Office suite, this new edition of Excel for Dummies quickly and painlessly gets up to speed on...</p>
+<div class="related-articles">    
+<img src="https://www.qa.dummies.com/wp-content/uploads/Office.png" style="margin-right:5%;" /><p><img src="https://www.qa.dummies.com/wp-content/uploads/Related-articles_G@2x.png" style="margin-right:1%;" /> Related Articles</p><p id="related-blurb">Using worksheet functions statistical analysis Excel 2019</p>
+</div>    
+</div>     
+<div class="col"><img src="https://www.qa.dummies.com/wp-content/uploads/Office-highlighted-section-.png" style="float:right; width:800px;" /><img src="https://www.qa.dummies.com/wp-content/uploads/Discount1_Small.png" style="position: absolute;
+    right: 225px;
+    top: 75px;"/><div id="slider-discount-text"><strong>25%</strong> <span>Discount</span></div></div>  
+</div>
+</div></li>
+  <li>
+<div class="product-title">
+<div class="row">    
+<div class="col"><img src="https://www.qa.dummies.com/wp-content/uploads/Dummies-logo2.png" class="dummies-logo"/><h3>Word 2019 for Dummies</h3>
+<span id="slider-author">Wallace Wang</span>
+<p>Updated to reflect the latest changes ot the Microsoft Office suite, this new edition of Excel for Dummies quickly and painlessly gets up to speed on...</p>
+<div class="related-articles">    
+<img src="https://www.qa.dummies.com/wp-content/uploads/Word.png" style="margin-right:5%;" /><p><img src="https://www.qa.dummies.com/wp-content/uploads/Related-articles_G@2x.png" style="margin-right:1%;" /> Related Articles</p><p id="related-blurb">Using worksheet functions statistical analysis Excel 2019</p>
+</div>    
+</div>     
+<div class="col"><img src="https://www.qa.dummies.com/wp-content/uploads/word-highlighted-section-.png" style="float:right; width:800px;" /><img src="https://www.qa.dummies.com/wp-content/uploads/Discount1_Small.png" style="position: absolute;
+    right: 225px;
+    top: 75px;"/><div id="slider-discount-text"><strong>25%</strong> <span>Discount</span></div></div>  
+</div>
+</div></li>
+</ul>    
+</div>    
+<div class="products">
+<h3>Compare Excel Products</h3>
+<div class="container">    
+<div class="row">
+<div class="col-sm-">
+<div id="commerce">
+<img src="https://www.qa.dummies.com/wp-content/uploads/Excel-FD-203x255.jpg" alt="Excel 2019 for Dummies" />
+<p id="book-title">Excel 2019 for Dummies</p>    
+<p id="author">Greg Harvey</p>
+<p id="isbn">ISBN: 9781119513322</p>
+<div id="bullet-points">
+<ul>
+<li>Everything you need to know about spreadsheets</li>
+<li>Streamline processes</li>
+<li>Make your life easier</li>
+</ul>
+</div>
+<div id="price">
+US <strong>$39.99</strong>
+</div>     
+</div>
+</div>
+<div class="col-sm-">
+<div id="commerce">    
+<img src="https://www.qa.dummies.com/wp-content/uploads/Excel-FF-203x255.jpg" alt="Excel Formulas and Functions for Dummies, 5th Edition" />    
+<p id="book-title">Excel Formulas and Functions for Dummies, 5th Edition</p>    
+<p id="author">Ken Bluttman</p>
+<p id="isbn">ISBN: 9781119518259</p>
+<div id="bullet-points">
+<ul>
+<li>Make work and tasks easier</li>
+<li>Step-by-step instruction on Excel's 150 most useful</li>
+<li>85 specialized functions</li>
+</ul>
+</div>
+<div id="price">
+US <strong>$39.99</strong>
+</div>    
+</div>    
+</div>
+ <div class="col-sm-">   
+<div id="commerce">
+<img src="https://www.qa.dummies.com/wp-content/uploads/Excel-VBA-FD-203x255.jpg" alt="Excel VBA Programming for Dummies, 5th Edition"/>     
+<p id="book-title">Excel VBA Programming for Dummies, 5th Edition</p>    
+<p id="author">Michael Alexander</p>
+<p id="isbn">ISBN: 9781119518174</p>
+<div id="bullet-points">
+<ul>
+<li>Understand and implement VBA</li>
+<li>Concepts for programming with Excel</li>
+<li>Step-by-step instructions for VBA macros</li>
+<li>Maximize productivity</li>    
+</ul>
+</div>
+<div id="price">
+US <strong>$39.99</strong>
+</div>      
+</div>
+</div>
+ <div class="col-sm-">    
+<div id="commerce"> 
+<img src="https://www.qa.dummies.com/wp-content/uploads/Excel-Data-Analysis-FD-203x255.jpg" alt="Excel Data Analysis for Dummies, 4th Edition"/>    
+<p id="book-title">Excel Data Analysis for Dummies, 4th Edition</p>    
+<p id="author">Paul McFedries</p>
+<p id="isbn">ISBN: 9781119518167</p>
+<div id="bullet-points">
+<ul>
+<li>Use Excel analyzing big data sets</li>
+<li>Analyze critical data</li>
+<li>Make informed business decisions</li>
+<li>Statistical and finacial functions</li>
+<li>Data sharing</li>    
+</ul>
+</div>
+<div id="price">
+US <strong>$39.99</strong>
+</div>    
+</div>
+</div>
+ <div class="col-sm-">    
+<div id="commerce">
+<img src="https://www.qa.dummies.com/wp-content/uploads/Excel-AIO-FD-203x255.jpg" alt="Excel 2019 All-in-One for Dummies"/>    
+<p id="book-title">Excel 2019 All-In-One for Dummies</p>    
+<p id="author">Greg Harvey</p>
+<p id="isbn">ISBN: 9781119517948</p>
+<div id="bullet-points">
+<ul>
+<li>8 books in 1</li>
+<li>Deep coverage from basics advanced</li>
+<li>Data management, analysis, modeling, and visualization</li>    
+</ul>
+</div>
+<div id="price">
+US <strong>$39.99</strong>
+</div>    
+</div>
+</div>    
+</div>    
+</div>
+</div>
+<div class="featured">
+<div class="container">
+<h3>Featured</h3>
+<span>Duis leo. Sed fringilla mauris sit amet nibh. Donec sodales sagittis magna.</span>    
+<div class="row">
+<div class="col">
+<div id="office-2019-feature">
+<div id="discount-row">
+<img src="https://www.qa.dummies.com/wp-content/uploads/Discount1_Small.png" alt="25% Discount"/>
+<div id="discount-text"><strong>25%</strong> <span>Discount</span></div>
+    </div>  
+<div class="left-side">
+<h4>Office 2019 for Dummies</h4>
+<div id="feature-author">Wallace Wang</div>
+<div id="featured-article">
+ <img src="https://www.qa.dummies.com/wp-content/uploads/Related-articles_G.png"/> <span>Related Article</span>
+<p>Using worksheet functions statistical analysis...</p>    
+</div>    
+</div>  
+<div class="right-side">  
+<img src="https://www.qa.dummies.com/wp-content/uploads/Office-FD.jpg" alt='Office 2019 for Dummies Book Cover' width="135px" height="169px" class="mobile-feature-img"/>
+<button>Buy Now</button>  
+</div>
+</div>    
+</div>    
+<div class="col">
+<div id="office-2019-all-one-feature">
+<div id="discount-row">
+<img src="https://www.qa.dummies.com/wp-content/uploads/Discount1_Small.png" alt="25% Discount"/>
+<div id="discount-text"><strong>25%</strong> <span>Discount</span></div>    
+</div>
+<div class="left-side">
+<h4>Office 2019 All-in-One for Dummies</h4>
+<div id="feature-author">Peter Weverka</div>
+<div id="featured-article">
+ <img src="https://www.qa.dummies.com/wp-content/uploads/Related-articles_G.png"/> <span>Related Article</span>
+<p>Microsoft Office 2019 keyboard shortcuts</p>    
+</div>    
+</div>  
+<div class="right-side">  
+<img src="https://www.qa.dummies.com/wp-content/uploads/Office-AIO-FD.jpg" alt='Office 2019 All-in-One for Dummies Book Cover' width="135px" height="169px" class="mobile-feature-img" />
+<button>Buy Now</button>  
+</div>     
+</div>    
+</div>
+    </div>
+<div class="row">
+<div class="col">
+<div id="office-365-feature">
+<div id="discount-row">
+<img src="https://www.qa.dummies.com/wp-content/uploads/Discount1_Small.png" alt="25% Discount"/>
+<div id="discount-text"><strong>25%</strong> <span>Discount</span></div>
+    </div>    
+<div class="left-side">
+<h4>Office 365 for Dummies, 5th Edition</h4>
+<div id="feature-author">Rosemarie Withee, Ken Withee, Jennifer Reed</div>
+<div id="featured-article">
+ <img src="https://www.qa.dummies.com/wp-content/uploads/Related-articles_G.png"/> <span>Related Article</span>   
+<p>Sharepoint sites can access Office 365</p>
+    </div>    
+</div>  
+<div class="right-side">  
+<img src="https://www.qa.dummies.com/wp-content/uploads/Office-365-FD.jpg" alt='Office 365 for Dummies Book Cover' width="135px" height="169px" class="mobile-feature-img" />
+<button>Buy Now</button>  
+</div>    
+</div>
+</div>    
+<div class="col">
+<div id="office-seniors-feature">
+<div id="discount-row">
+<img src="https://www.qa.dummies.com/wp-content/uploads/Discount1_Small.png" alt="25% Discount"/>
+<div id="discount-text"><strong>25%</strong> <span>Discount</span></div>    
+</div>
+<div class="left-side">
+<h4>Office 2019 for Seniors for Dummies</h4>
+<div id="feature-author">Faithe Wempen</div>
+<div id="featured-article">
+ <img src="https://www.qa.dummies.com/wp-content/uploads/Related-articles_G.png"/> <span>Related Article</span> 
+<p>For seniors how to move around in an Office...</p>    
+</div>    
+</div>  
+<div class="right-side">  
+<img src="https://www.qa.dummies.com/wp-content/uploads/Office-Seniors-FD.jpg" alt='Office 2019 for Seniors for Dummies Book Cover' width="135px" height="169px" class="mobile-feature-img" />
+<button>Buy Now</button>  
+</div>     
+</div>    
+</div>
+    </div>    
+ </div>   
+</div>
+<div class="popular">
+<h3>Popular Microsoft Books</h3>    
+<div class="container">
+<div class="row" style="max-width:1110px;">
+<div class="col">
+<img src="https://www.qa.dummies.com/wp-content/uploads/Outlook-FD.jpg" alt="Outlook 2019 for Dummies Book Cover" width="180px" height="226px" />
+<div id="popular-details">
+<span>Outlook 2019 for Dummies</span>
+<p>Bill Dyszel, Fithe Wempen</p>    
+</div>    
+</div>
+<div class="col">
+<img src="https://www.qa.dummies.com/wp-content/uploads/Word-FD.jpg" alt="Word 2019 for Dummies Book Cover" width="180px" height="226px" />
+<div id="popular-details">
+<span>Word 2019 for Dummies</span>     
+</div>    
+</div>
+<div class="col">
+<img src="https://www.qa.dummies.com/wp-content/uploads/PowerPoint-FD.jpg" alt="PowerPoint 2019 for Dummies Book Cover" width="180px" height="226px" />
+<div id="popular-details">
+<span>PowerPoint 2019 for Dummies</span>     
+</div>    
+</div>
+<div class="col">
+<img src="https://www.qa.dummies.com/wp-content/uploads/Access-FD.jpg" alt="Access 2019 for Dummies Book Cover" width="180px" height="226px" />
+<div id="popular-details">
+<span>Access 2019 for Dummies</span>     
+</div>    
+</div>    
+</div>    
+</div>    
+</div>
+<div class="special-offer">
+<div id="special-offer-text">
+<p>Check out <strong>our special offer</strong></p>    
+<h2>25% Discount!</h2>
+<p>Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua.</p>
+<button>View Detail</button>    
+<img src="https://www.qa.dummies.com/wp-content/uploads/BookCovers_Newsletter-Section.png" width="400px" style="right:250px;
+        top:10px;"/> <img src="https://www.qa.dummies.com/wp-content/uploads/Discount2.png" style="width: 176px;
+    height: 176px;
+    right: 225px;
+    top: 90px;"/><div id="special-offer-discount-text"><strong>25%</strong> <span>Discount</span></div>        
+</div>
+</div>
+<div class="newsletter">
+<div class="sign-up">
+<img src="https://www.qa.dummies.com/wp-content/uploads/Newsletter.png" />    
+<div class="sign-up-email">    
+<h2>Sign up</h2>    
+<p>for dummies newsletter!</p>
+<span>Enter your email below so you can sign up for our newsletter and get updates!</span> 
+<div id="email-field">    
+<input placeholder="Enter your email"><button>Submit</button>
+</div>    
+</div>
+</div>
+</div>    
+    </div>    
+</body>    
+</html>    
